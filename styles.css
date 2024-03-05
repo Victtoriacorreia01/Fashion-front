@@ -42,7 +42,18 @@
   background-color: var(--text-dark);
 }
 
-.btn {
+.btn1 {
+  padding: 0.75rem 2rem;
+  font-size: 0.8rem;
+  outline: none;
+  border-radius: 20px;
+  border-color: gold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Playfair';
+  background-color: gold
+}
+.btn1:hover {
   padding: 0.75rem 2rem;
   font-size: 0.8rem;
   outline: none;
@@ -103,7 +114,7 @@ body {
 }
 
 .link a:hover {
-  color: var(--text-dark);
+  color: gold;
 }
 
 .nav__icons {
@@ -112,8 +123,15 @@ body {
 }
 
 .nav__icons span {
+  font-size: 1.30rem;
+  cursor: pointer;
+  color: #030712;
+}
+
+.nav__icons span:hover {
   font-size: 1.25rem;
   cursor: pointer;
+  color: #d20a14;
 }
 
 header {
@@ -246,9 +264,26 @@ header {
 }
 
 .sale__btn {
-  margin-top: 2rem;
-  color: var(--white);
-  background-color: var(--text-dark);
+  padding: 0.75rem 2rem;
+  font-size: 0.8rem;
+  outline: none;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Playfair';
+  background-color: rgb(9, 9, 9);
+  color: #f6f1f1;
+}
+.sale__btn:hover {
+padding: 0.75rem 2rem;
+font-size: 0.8rem;
+outline: none;
+border-color: #d5d5d5;
+cursor: pointer;
+transition: 0.3s;
+font-family: 'Playfair';
+background-color: var(--text-light);
+color: #d5d5d5;
 }
 
 .sale__card::before {
